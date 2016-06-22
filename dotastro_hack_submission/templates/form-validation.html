@@ -19,7 +19,8 @@
 
         <!-- You only need this form and the form-validation.css -->
 
-        <form class="form-validation" method="post" action="create">
+        <form class="form-validation" method="post" action="create" enctype="multipart/form-data">
+
             <input type="hidden" name="access_token" value="{{ access_token }}" required>
 
             <div class="form-title-row">
