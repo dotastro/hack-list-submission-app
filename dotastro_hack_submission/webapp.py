@@ -86,9 +86,3 @@ def create_file():
     return render_template('done.html', pr_url=pr.html_url,
                                         pr_branch_name=pr_branch_name,
                                         pr_branch_url=pr_branch_url)
-
-if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))
-    debug = bool(os.environ.get('DEBUG', False))
-    host = os.environ.get('HOST', None)
-    app.run(host=host, debug=debug, port=port)
