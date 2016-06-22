@@ -90,4 +90,5 @@ def create_file():
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     debug = bool(os.environ.get('DEBUG', False))
-    app.run(debug=debug, port=port)
+    host = os.environ.get('HOST', None)
+    app.run(host=host, debug=debug, port=port)
