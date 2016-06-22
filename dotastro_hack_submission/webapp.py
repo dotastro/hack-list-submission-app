@@ -4,7 +4,7 @@ from urllib.parse import parse_qs
 
 from flask import Flask, request, send_from_directory, redirect, render_template
 from github import Github
-from add_file import add_file, make_file_contents
+from .add_file import add_file, make_file_contents
 
 GITHUB_AUTH_URL = 'https://github.com/login/oauth/authorize'
 GITHUB_TOKEN_URL = 'https://github.com/login/oauth/access_token'
