@@ -37,7 +37,7 @@ creators: {creators}
 description: {desc}
 source-url: {src}
 live-url: {live}
-contact-email : {email}
+contact-email: {email}
 doi: {doi}
 images: {images}
 orcid: {orcid}
