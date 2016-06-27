@@ -73,7 +73,7 @@ def create_file():
         content = base64.encodebytes(content).decode('ascii')
 
         image_filename = "{0}.{1}".format(title, extension)
-        files["{0}/{1}".format(dotastronumber, image_filename)] = content, 'base64'
+        files["dotastro{}/{}".format(dotastronumber, image_filename)] = content, 'base64'
 
     else:
 
