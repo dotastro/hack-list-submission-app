@@ -10,7 +10,7 @@ from .add_files import add_files, make_file_contents
 GITHUB_AUTH_URL = 'https://github.com/login/oauth/authorize'
 GITHUB_TOKEN_URL = 'https://github.com/login/oauth/access_token'
 
-HACKLIST_REPO = 'dotastro/hack-list'
+HACKLIST_REPO = 'dotastro/hacks-collector'
 
 CLIENT_ID = os.environ['CLIENT_ID']
 CLIENT_SECRET = os.environ['CLIENT_SECRET']
