@@ -1,5 +1,5 @@
 import os
-from dotastro_hack_submission.webapp import app
+from hack_submission.webapp import app
 
 port = int(os.environ.get('PORT', 5000))
 debug = bool(os.environ.get('DEBUG', False))
