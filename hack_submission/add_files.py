@@ -34,7 +34,7 @@ def add_files(repo, branch, message, files):
 YML_TEMPLATE = """
 title: {title}
 creators: {creators}
-description: {desc}
+description: "{desc}"
 source-url: {src}
 live-url: {live}
 contact-email: {email}
