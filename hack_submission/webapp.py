@@ -60,7 +60,7 @@ def create_file():
 
     # Process file upload
 
-    if request.files['pic'].filename != "":
+    if 'pic' in request.files and request.files['pic'].filename != "":
 
         content = request.files['pic'].stream.read()
         mimetype = request.files['pic'].mimetype
